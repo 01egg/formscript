@@ -347,7 +347,6 @@ if(isset($form[$act])) {
 
       $headers = "Return-Path: <".$get_fromEmail.">\r\n";
       $headers .= "From: ".$fromName." <".$get_fromEmail.">\r\n";
-      $headers .= "X-Mailer: Feedback, v0.3 (http://artuelle.com)\r\n";
       $headers .= "X-Priority: 3\r\n";
       $headers .= "Reply-To: ".$fromName." <".$get_fromEmail.">\r\n";
       //$headers .= "To: ".$To."\r\n";
